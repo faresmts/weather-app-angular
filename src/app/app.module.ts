@@ -6,10 +6,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { HttpClientModule} from '@angular/common/http';
+import { WeatherHomeComponent } from './modules/wheater/page/weather-home/weather-home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WeatherHomeComponent
   ],
   // We import modules to application here
   imports: [
